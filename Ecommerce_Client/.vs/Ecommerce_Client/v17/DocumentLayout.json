@@ -1,0 +1,733 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\chitietsanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\chitietsanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|c:\\users\\miumiu\\desktop\\tmdt8\\ecommerce_client\\ecommerce_client\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\chitietsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\chitietsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\trangchudatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\trangchudatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\tatcasanphamdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\tatcasanphamdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|c:\\users\\miumiu\\desktop\\tmdt8\\ecommerce_client\\ecommerce_client\\sanphammoi.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\sanphammoi.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\sanphammoi.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\sanphammoi.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\sanphammoi.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\sanphammoi.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\chitietsanphamdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\chitietsanphamdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\trangchu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\trangchu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\tatcasanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\tatcasanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\clientpagemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\clientpagemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\sanphambanchay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\sanphambanchay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\tatcasanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\tatcasanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\sanphambanchay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\sanphambanchay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\laptop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\laptop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\thanhtoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\thanhtoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dienthoai.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dienthoai.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\phukiendatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\phukiendatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\laptopdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\laptopdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dienthoaidatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dienthoaidatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\phukien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\phukien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dienthoai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dienthoai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\logindatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\logindatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dangky.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dangky.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\registerdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\registerdatautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\dangnhap.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\dangnhap.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\totalsold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\totalsold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\ecommerce_client\\homepageassets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F9D21B8-E5AA-4653-B463-18C45C12174E}|Ecommerce_Client\\Ecommerce_Client.csproj|solutionrelative:ecommerce_client\\homepageassets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietSanPham.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ChiTietSanPham.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\ChiTietSanPham.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ChiTietSanPham.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\ChiTietSanPham.aspx.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:46:32.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TatCaSanPhamDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TatCaSanPhamDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TatCaSanPhamDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TatCaSanPhamDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\TatCaSanPhamDataUtils.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:30:39.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrangChuDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChuDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TrangChuDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChuDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\TrangChuDataUtils.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:21:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrangChu.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChu.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TrangChu.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChu.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\TrangChu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T03:11:58.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietSanPham.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ChiTietSanPham.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\ChiTietSanPham.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ChiTietSanPham.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\ChiTietSanPham.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T09:31:03.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SanPhamMoi.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamMoi.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\SanPhamMoi.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamMoi.aspx.designer.cs",
+              "RelativeToolTip": "Ecommerce_Client\\SanPhamMoi.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:20:24.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChiTietSanPhamDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ChiTietSanPhamDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\ChiTietSanPhamDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ChiTietSanPhamDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\ChiTietSanPhamDataUtils.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwCkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:01:00.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TrangChu.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChu.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TrangChu.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChu.aspx.designer.cs",
+              "RelativeToolTip": "Ecommerce_Client\\TrangChu.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:24:16.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SanPhamMoi.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamMoi.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\SanPhamMoi.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamMoi.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\SanPhamMoi.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T09:49:07.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SanPhamMoi.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamMoi.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\SanPhamMoi.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamMoi.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\SanPhamMoi.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:22:54.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TrangChu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChu.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TrangChu.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TrangChu.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\TrangChu.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:55:33.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TatCaSanPham.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TatCaSanPham.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TatCaSanPham.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TatCaSanPham.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\TatCaSanPham.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T09:48:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientPageMaster.Master",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ClientPageMaster.Master",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\ClientPageMaster.Master",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ClientPageMaster.Master",
+              "RelativeToolTip": "Ecommerce_Client\\ClientPageMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T03:02:45.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TatCaSanPham.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TatCaSanPham.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\TatCaSanPham.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\TatCaSanPham.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\TatCaSanPham.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:09:59.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SanPhamBanChay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamBanChay.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\SanPhamBanChay.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamBanChay.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\SanPhamBanChay.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:46:47.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SanPhamBanChay.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamBanChay.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\SanPhamBanChay.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\SanPhamBanChay.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\SanPhamBanChay.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T09:49:25.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LapTop.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\LapTop.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\LapTop.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\LapTop.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\LapTop.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T16:36:03.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThanhToan.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ThanhToan.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\ThanhToan.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\ThanhToan.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\ThanhToan.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T10:11:57.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GioHang.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\GioHang.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\GioHang.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\GioHang.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\GioHang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T09:50:12.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DangKy.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangKy.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DangKy.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangKy.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\DangKy.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T05:34:24.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DienThoai.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DienThoai.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DienThoai.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DienThoai.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\DienThoai.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T16:35:13.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PhuKienDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\PhuKienDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\PhuKienDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\PhuKienDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\PhuKienDataUtils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:48:27.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LaptopDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\LaptopDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\LaptopDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\LaptopDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\LaptopDataUtils.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:40:28.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Customer.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:44:56.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DienThoaiDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DienThoaiDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DienThoaiDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DienThoaiDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\DienThoaiDataUtils.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:37:04.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PhuKien.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\PhuKien.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\PhuKien.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\PhuKien.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\PhuKien.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T16:49:24.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DienThoai.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DienThoai.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DienThoai.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DienThoai.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\DienThoai.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:36:33.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Web.config",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Web.config",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Web.config",
+              "RelativeToolTip": "Ecommerce_Client\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-13T15:25:50.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\LoginDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\LoginDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\LoginDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\LoginDataUtils.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAEwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:10:27.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DangNhap.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangNhap.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DangNhap.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangNhap.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\DangNhap.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:23:25.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DangKy.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangKy.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DangKy.aspx.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangKy.aspx.cs",
+              "RelativeToolTip": "Ecommerce_Client\\DangKy.aspx.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T05:46:13.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DangNhap.aspx",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangNhap.aspx",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DangNhap.aspx",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangNhap.aspx",
+              "RelativeToolTip": "Ecommerce_Client\\DangNhap.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T09:19:52.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DangKy.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangKy.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DangKy.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangKy.aspx.designer.cs",
+              "RelativeToolTip": "Ecommerce_Client\\DangKy.aspx.designer.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:47:33.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterDataUtils.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\RegisterDataUtils.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\RegisterDataUtils.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\RegisterDataUtils.cs",
+              "RelativeToolTip": "Ecommerce_Client\\RegisterDataUtils.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAawBQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:50:01.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\homepageassets\\css\\styles.css",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\homepageassets\\css\\styles.css",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\homepageassets\\css\\styles.css",
+              "RelativeToolTip": "Ecommerce_Client\\homepageassets\\css\\styles.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-13T10:10:34.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Payment.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:53:59.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DangNhap.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangNhap.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\DangNhap.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\DangNhap.aspx.designer.cs",
+              "RelativeToolTip": "Ecommerce_Client\\DangNhap.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:27:04.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Product.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:45:24.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WishList.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\WishList.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\WishList.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\WishList.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\WishList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:51:28.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Cart.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:47:45.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TotalSold.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\TotalSold.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\TotalSold.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\TotalSold.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\TotalSold.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:46:51.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Ecommerce_Client\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\MiuMiu\\Desktop\\TMDT8\\Ecommerce_Client\\Ecommerce_Client\\Models\\Category.cs",
+              "RelativeToolTip": "Ecommerce_Client\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:44:12.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
