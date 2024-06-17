@@ -12,7 +12,8 @@ namespace Ecommerce_Client
         SqlConnection con;
         public LoginDataUtils()
         {
-            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True";
+            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True;Encrypt=False";
+
             con = new SqlConnection(sqlCon);
         }
 
@@ -31,6 +32,21 @@ namespace Ecommerce_Client
             }
             con.Close();
             return false;
+        }
+        public string GetLastName(string email)
+        {
+            string lastName = string.Empty;
+            con.Open();
+            string sql = "select last_name from [customer] where email=@Email";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters.AddWithValue("Email", email);
+            SqlDataReader rd = cmd.ExecuteReader();
+            if (rd.Read())
+            {
+                lastName = rd["last_name"].ToString();
+            }
+            con.Close();
+            return lastName;
         }
     }
 }

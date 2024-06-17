@@ -9,6 +9,10 @@ namespace Ecommerce_Client
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UserEmail"] == null)
+            {
+                Response.Redirect("DangNhap.aspx");
+            }
         }
 
         [WebMethod]

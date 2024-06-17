@@ -13,7 +13,8 @@ namespace Ecommerce_Client
 
         public LaptopDataUtils()
         {
-            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True";
+            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True;Encrypt=False";
+
             con = new SqlConnection(sqlCon);
         }
 
@@ -22,7 +23,7 @@ namespace Ecommerce_Client
             List<Product> products = new List<Product>();
             con.Open();
             // Modified SQL query to filter products whose names contain 'laptop'
-            string sql = "SELECT TOP 20 * FROM product WHERE where category_id=2";
+            string sql = "SELECT TOP 20 * FROM product WHERE category_id=2";
             SqlCommand cmd = new SqlCommand(sql, con);
             SqlDataReader rd = cmd.ExecuteReader();
             while (rd.Read())

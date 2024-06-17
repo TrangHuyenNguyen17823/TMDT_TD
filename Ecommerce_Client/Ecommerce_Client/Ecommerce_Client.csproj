@@ -133,6 +133,7 @@
     <Compile Include="GioHang.aspx.designer.cs">
       <DependentUpon>GioHang.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GioHangDataUtils.cs" />
     <Compile Include="LapTop.aspx.cs">
       <DependentUpon>LapTop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

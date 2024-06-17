@@ -4,22 +4,23 @@
 
 <html>
 <head runat="server">
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title><%: Page.Title %></title>
     <link rel="stylesheet" href="<%= ResolveUrl("~/css/style.css") %>">
     <script src="<%= ResolveUrl("~/js/script.js") %>"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Your custom CSS -->
     <link rel="stylesheet" href="<%= ResolveUrl("~/css/custom.css") %>">
 
-       <style>
-      
+    <style>
         .footer {
             background-color: #333;
             color: #fff;
             padding: 20px 0;
         }
+
         .footer-container {
             display: flex;
             justify-content: space-between;
@@ -28,65 +29,103 @@
             margin: 0 auto;
             padding: 0 20px;
         }
+
         .footer-column {
             flex: 1;
             margin: 10px;
             min-width: 200px;
         }
-        .footer-column h3 {
-            border-bottom: 2px solid #ff9900;
-            padding-bottom: 10px;
-            margin-bottom: 15px;
-        }
-        .footer-column ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .footer-column ul li {
-            margin: 10px 0;
-        }
-        .footer-column ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .footer-column ul li a:hover {
-            text-decoration: underline;
-        }
+
+            .footer-column h3 {
+                border-bottom: 2px solid #ff9900;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+            }
+
+            .footer-column ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+                .footer-column ul li {
+                    margin: 10px 0;
+                }
+
+                    .footer-column ul li a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                        .footer-column ul li a:hover {
+                            text-decoration: underline;
+                        }
+
         .social-icons {
             display: flex;
             gap: 10px;
         }
-        .social-icons a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 24px;
-        }
+
+            .social-icons a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 24px;
+            }
+
         .footer-bottom {
             text-align: center;
             padding: 10px 0;
             background-color: #222;
             margin-top: 20px;
         }
+        /* CSS for dropdown menu */
+        .nav-item.dropdown .dropdown-menu {
+            display: none; /* Ẩn menu dropdown ban đầu */
+            position: absolute;
+            background-color: #fff; /* Màu nền của dropdown */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Hiệu ứng bóng đổ */
+            z-index: 1; /* Đảm bảo menu dropdown hiển thị trên các thành phần khác */
+        }
+
+        .nav-item.dropdown:hover .dropdown-menu {
+            display: block; /* Hiển thị menu dropdown khi hover vào */
+            visibility: visible; /* Đảm bảo menu dropdown hiển thị khi hover */
+        }
+
+        .dropdown-menu a {
+            color: #333; /* Màu chữ cho các lựa chọn trong dropdown */
+            padding: 10px 20px; /* Khoảng cách giữa các mục trong dropdown */
+            text-decoration: none; /* Loại bỏ gạch chân mặc định cho liên kết */
+            display: block; /* Hiển thị mỗi mục lựa chọn là một khối đầy đủ */
+        }
+
+            .dropdown-menu a:hover {
+                background-color: #f1f1f1; /* Màu nền khi di chuột vào mục lựa chọn */
+            }
+
+        #logoutButton {
+            margin-left: 10px;
+        }
+        #userGreeting {
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
     </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
-        
-
     </asp:ContentPlaceHolder>
 
 </head>
 <body>
-
-
-            <!-- Navigation-->
-           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="TrangChu.aspx">Group 8</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="TrangChu.aspx">Trang chủ</a></li>
-                    <%--<li class="nav-item"><a class="nav-link" href="#!">About</a></li>--%>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sản phẩm của chúng tôi</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -100,38 +139,42 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <a class="btn btn-outline-dark" href="GioHang.aspx" >
-                        <i class="bi-cart-fill me-1" ></i>
+                    <a class="btn btn-outline-dark" href="GioHang.aspx">
+                        <i class="bi-cart-fill me-1"></i>
                         Giỏ hàng
-                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </a>
-                    <li class="nav-item dropdown" style="list-style:none; padding-left:10px">
-                        <a class="btn btn-outline-dark" id="navbarDropdownuser" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tài khoản</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div id="userGreeting" runat="server" visible="false" class="nav-item">
+                        Xin chào, <span id="lastName" runat="server"></span>
+                    </div>
+                    <li class="nav-item dropdown" id="loginButton" runat="server" visible="true">
+                        <a class="btn btn-outline-dark" id="navbarDropdownuser" href="#" role="button" aria-expanded="false">Tài khoản</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownuser">
                             <li><a class="dropdown-item" href="DangKy.aspx">Đăng ký</a></li>
                             <li><a class="dropdown-item" href="DangNhap.aspx">Đăng nhập</a></li>
                         </ul>
                     </li>
-                    
-
+                    <button id="logoutButton" runat="server" class="btn btn-outline-dark" type="button" onserverclick="LogoutButton_Click" visible="false">
+                        Đăng xuất
+                    </button>
 
                 </form>
             </div>
         </div>
     </nav>
 
-<%--   start main--%>
+
+    <%--   start main--%>
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
             </asp:ContentPlaceHolder>
         </div>
     </form>
 
-<%--    end main--%>
+    <%--    end main--%>
 
-        <footer class="footer">
+    <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
                 <h3>Về Chúng Tôi</h3>
@@ -160,7 +203,7 @@
                     <li><a href="#">Chính sách bảo hành</a></li>
                 </ul>
             </div>
-            
+
         </div>
         <div class="footer-bottom">
             &copy; 2024 DienThoaiStore. All rights reserved.
@@ -169,8 +212,5 @@
 
     <!-- FontAwesome for social icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-
-
 </body>
 </html>
