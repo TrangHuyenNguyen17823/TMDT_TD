@@ -9,7 +9,8 @@ namespace Ecommerce_Client
 
         public RegisterDataUtils()
         {
-            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True";
+            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True;Encrypt=False";
+
             con = new SqlConnection(sqlCon);
         }
 

@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientPageMaster.Master" AutoEventWireup="true" CodeBehind="TrangChu.aspx.cs" Inherits="Ecommerce_Client.TrangChu" %>
 
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
+        /* Add your CSS styles here */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f8f9fa;
@@ -154,7 +154,6 @@
             opacity: 1;
         }
     </style>
-
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -166,14 +165,9 @@
                 <p class="lead fw-normal text-white-50 mb-0">Điện thoại mới - giá rẻ - uy tín - chất lượng</p>
                 <div class="search-container">
                     <div class="search-box">
-   <asp:TextBox runat="server" CssClass="search-input" ID="inputSearch" placeholder="Tìm kiếm sản phẩm..."></asp:TextBox>
-        <%--<asp:Button runat="server" CssClass="search-button" Text="Tìm kiếm" ID="btnTimKiem" OnClick="btnTimKiem_Click"  />--%>
-
-
-
-
-</div>
-
+                        <asp:TextBox runat="server" CssClass="search-input" ID="inputSearch" placeholder="Tìm kiếm sản phẩm..."></asp:TextBox>
+                        <asp:Button runat="server" CssClass="search-button" Text="Tìm kiếm" ID="btnTimKiem" OnClientClick="searchProducts(); return false;" />
+                    </div>
                 </div>
                 <!-- Phần danh mục -->
                 <div class="category-container">
@@ -181,9 +175,9 @@
                         Ecommerce_Client.TrangChuDataUtils dataUtils = new Ecommerce_Client.TrangChuDataUtils();
                         List<Ecommerce_Client.Models.Category> categories = dataUtils.GetCategories();
                     %>
-                    <a href="DienThoai.aspx" class="category-button" data-category="dienthoai"><%=categories[0].category_name %></a>
-                    <a href="LapTop.aspx" class="category-button" data-category="laptop"><%=categories[1].category_name %></a>
-                    <a href="PhuKien.aspx" class="category-button" data-category="phukien"><%=categories[2].category_name %></a>
+                    <a href="#" class="category-button" data-category="dienthoai" onclick="loadProductsByCategory('<%= categories[0].category_name %>'); return false;"><%= categories[0].category_name %></a>
+                    <a href="#" class="category-button" data-category="laptop" onclick="loadProductsByCategory('<%= categories[1].category_name %>'); return false;"><%= categories[1].category_name %></a>
+                    <a href="#" class="category-button" data-category="phukien" onclick="loadProductsByCategory('<%= categories[2].category_name %>'); return false;"><%= categories[2].category_name %></a>
                 </div>
             </div>
         </div>
@@ -223,18 +217,47 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Custom JS for handling category selection -->
     <script>
-        $(document).ready(function () {
-            $('.category-button').on('click', function (event) {
-                event.preventDefault();
-                var category = $(this).data('category');
-                loadProducts(category);
+        function loadProductsByCategory(category) {
+            $.ajax({
+                type: 'POST',
+                url: 'TrangChu.aspx/GetProductsByCategory',
+                data: JSON.stringify({ category: category }),
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                success: function (response) {
+                    var productsHtml = '';
+                    $.each(response.d, function (index, product) {
+                        productsHtml += `
+                            <div class="card">
+                                <a href='ChiTietSanPham.aspx?productId=${product.product_id}'>
+                                    <img class="card-img-top" src="${product.image}" alt="Product Image" />
+                                    <div class="card-body">
+                                        <h5 class="product-name">${product.name}</h5>
+                                        <p class="product-price">$${product.price}</p>
+                                        <p class="stock-info">Còn lại: ${product.stock} sản phẩm</p>
+                                    </div>
+                                </a>
+                                <div class="add-to-cart">
+                                    <a class="btn btn-outline-light" href="#">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    $('.products-container').html(productsHtml);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error loading products:', error);
+                }
             });
+        }
 
-            function loadProducts(category) {
+        function searchProducts() {
+            var searchTerm = $('#inputSearch').val().trim();
+            if (searchTerm !== '') {
                 $.ajax({
                     type: 'POST',
-                    url: 'TrangChu.aspx/GetProductsByCategory',
-                    data: JSON.stringify({ category: category }),
+                    url: 'TrangChu.aspx/SearchProducts',
+                    data: JSON.stringify({ searchTerm: searchTerm }),
                     contentType: 'application/json; charset=utf-8',
                     dataType: 'json',
                     success: function (response) {
@@ -259,57 +282,10 @@
                         $('.products-container').html(productsHtml);
                     },
                     error: function (xhr, status, error) {
-                        console.error('Error loading products:', error);
-                    }
-                });
-            }
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('#btnTimKiem').click(function (event) {
-                event.preventDefault(); // Ngăn chặn việc gửi form
-                var searchTerm = $('#inputSearch').val().trim();
-                if (searchTerm !== '') {
-                    searchProducts(searchTerm);
-                }
-            });
-
-            function searchProducts(searchTerm) {
-                $.ajax({
-                    type: 'POST',
-                    url: 'TrangChu.aspx/SearchProducts',
-                    data: JSON.stringify({ searchTerm: searchTerm }),
-                    contentType: 'application/json; charset=utf-8',
-                    dataType: 'json',
-                    success: function (response) {
-                        var productsHtml = '';
-                        $.each(response.d, function (index, product) {
-                            productsHtml += `
-                    <div class="card">
-                        <a href='ChiTietSanPham.aspx?productId=${product.product_id}'>
-                            <img class="card-img-top" src="${product.image}" alt="Product Image" />
-                            <div class="card-body">
-                                <h5 class="product-name">${product.name}</h5>
-                                <p class="product-price">$${product.price}</p>
-                                <p class="stock-info">Còn lại: ${product.stock} sản phẩm</p>
-                            </div>
-                        </a>
-                        <div class="add-to-cart">
-                            <a class="btn btn-outline-light" href="#">Thêm vào giỏ hàng</a>
-                        </div>
-                    </div>
-                `;
-                        });
-                        $('.products-container').html(productsHtml);
-                    },
-                    error: function (xhr, status, error) {
                         console.error('Error searching products:', error);
                     }
                 });
             }
-        });
-
+        }
     </script>
 </asp:Content>

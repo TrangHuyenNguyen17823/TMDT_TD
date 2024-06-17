@@ -1,146 +1,195 @@
 ﻿using Ecommerce_Client.Models;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
-using System.Web.Services;
+using System.Drawing;
 
 namespace Ecommerce_Client
 {
     public class TrangChuDataUtils
     {
-        SqlConnection con;
-
-        public TrangChuDataUtils()
-        {
-            string sqlCon = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True";
-            con = new SqlConnection(sqlCon);
-        }
+        // Update your connection string as necessary
+        string connectionString = "Data Source=DESKTOP-I9SL2BR\\SQLEXPRESS04;Initial Catalog=nhom8db;Integrated Security=True;Encrypt=False";
 
         public List<Category> GetCategories()
         {
             List<Category> categories = new List<Category>();
-            con.Open();
-            string sql = "SELECT * FROM category";
-            SqlCommand cmd = new SqlCommand(sql, con);
-            SqlDataReader rd = cmd.ExecuteReader();
-            while (rd.Read())
+
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                Category category = new Category();
-                category.category_id = Convert.ToInt32(rd["category_id"]);
-                category.category_name = rd["category_name"].ToString();
-                categories.Add(category);
+                string sql = "SELECT * FROM category";
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    con.Open();
+                    SqlDataReader rd = cmd.ExecuteReader();
+                    while (rd.Read())
+                    {
+                        Category category = new Category
+                        {
+                            category_id = Convert.ToInt32(rd["category_id"]),
+                            category_name = rd["category_name"].ToString()
+                        };
+                        categories.Add(category);
+                    }
+                }
             }
-            con.Close();
+
             return categories;
         }
-
 
         public List<Product> GetProducts()
         {
             List<Product> products = new List<Product>();
-            con.Open();
-            string sql = "SELECT TOP 30* FROM product";
-            SqlCommand cmd = new SqlCommand(sql, con);
-            SqlDataReader rd = cmd.ExecuteReader();
-            while (rd.Read())
+
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                Product product = new Product();
-                product.product_id = Convert.ToInt32(rd["product_id"]);
-                product.sku = rd["sku"].ToString();
-                product.name = rd["name"].ToString();
-                product.price = Convert.ToDecimal(rd["price"]);
-                product.stock = Convert.ToInt32(rd["stock"]);
-                product.image = rd["image"].ToString();
-                product.category_id = Convert.ToInt32(rd["category_id"]);
-                products.Add(product);
+                string sql = "SELECT TOP 30 * FROM product";
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    con.Open();
+                    SqlDataReader rd = cmd.ExecuteReader();
+                    while (rd.Read())
+                    {
+                        Product product = new Product
+                        {
+                            product_id = Convert.ToInt32(rd["product_id"]),
+                            sku = rd["sku"].ToString(),
+                            name = rd["name"].ToString(),
+                            price = Convert.ToDecimal(rd["price"]),
+                            stock = Convert.ToInt32(rd["stock"]),
+                            image = rd["image"].ToString(),
+                            category_id = Convert.ToInt32(rd["category_id"])
+                        };
+                        products.Add(product);
+                    }
+                }
             }
-            con.Close();
+
             return products;
         }
 
-        public List<Product> GetProductNew()
+       
+
+
+        public List<Product> GetProductNew(int offset, int itemsPerPage)
         {
             List<Product> products = new List<Product>();
-            con.Open();
-            string sql = "SELECT * FROM product WHERE stock > 800 ORDER BY stock DESC";
-            SqlCommand cmd = new SqlCommand(sql, con);
-            SqlDataReader rd = cmd.ExecuteReader();
-            while (rd.Read())
+
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                Product product = new Product();
-                product.product_id = Convert.ToInt32(rd["product_id"]);
-                product.sku = rd["sku"].ToString();
-                product.name = rd["name"].ToString();
-                product.price = Convert.ToDecimal(rd["price"]);
-                product.stock = Convert.ToInt32(rd["stock"]);
-                product.image = rd["image"].ToString();
-                product.category_id = Convert.ToInt32(rd["category_id"]);
-                products.Add(product);
+                try
+                {
+                    con.Open();
+
+                    string sql = @"
+                        SELECT * FROM (
+                            SELECT *, ROW_NUMBER() OVER (ORDER BY product_id DESC) AS RowNum 
+                            FROM product 
+                            WHERE stock >= 25
+                        ) AS Sub 
+                        WHERE RowNum BETWEEN @StartIndex AND @EndIndex";
+
+                    SqlCommand cmd = new SqlCommand(sql, con);
+                    cmd.Parameters.AddWithValue("@StartIndex", offset + 1);
+                    cmd.Parameters.AddWithValue("@EndIndex", offset + itemsPerPage);
+
+                    SqlDataReader rd = cmd.ExecuteReader();
+                    while (rd.Read())
+                    {
+                        Product product = new Product
+                        {
+                            product_id = Convert.ToInt32(rd["product_id"]),
+                            sku = rd["sku"].ToString(),
+                            name = rd["name"].ToString(),
+                            price = Convert.ToDecimal(rd["price"]),
+                            stock = Convert.ToInt32(rd["stock"]),
+                            image = rd["image"].ToString(),
+                            category_id = Convert.ToInt32(rd["category_id"])
+                        };
+                        products.Add(product);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions appropriately
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
             }
-            con.Close(); // Đóng kết nối sau khi sử dụng xong
 
             return products;
         }
-
-        public List<Product> GetBestSellingProducts()
+        public List<Product> GetBestSellingProducts(int offset, int itemsPerPage)
         {
             List<Product> products = new List<Product>();
-            con.Open();
-            string sql = "SELECT * FROM product WHERE stock < 25 ORDER BY stock ASC";
-            SqlCommand cmd = new SqlCommand(sql, con);
-            SqlDataReader rd = cmd.ExecuteReader();
-            while (rd.Read())
+
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                Product product = new Product();
-                product.product_id = Convert.ToInt32(rd["product_id"]);
-                product.sku = rd["sku"].ToString();
-                product.name = rd["name"].ToString();
-                product.price = Convert.ToDecimal(rd["price"]);
-                product.stock = Convert.ToInt32(rd["stock"]);
-                product.image = rd["image"].ToString();
-                product.category_id = Convert.ToInt32(rd["category_id"]);
-                products.Add(product);
+                try
+                {
+                    con.Open();
+
+                    string sql = @"
+                        SELECT * FROM (
+                            SELECT *, ROW_NUMBER() OVER (ORDER BY stock ASC) AS RowNum 
+                            FROM product 
+                            WHERE stock > 0 AND stock < 20
+                        ) AS Sub 
+                        WHERE RowNum BETWEEN @StartIndex AND @EndIndex
+                    ";
+
+                    SqlCommand cmd = new SqlCommand(sql, con);
+                    cmd.Parameters.AddWithValue("@StartIndex", offset + 1);
+                    cmd.Parameters.AddWithValue("@EndIndex", offset + itemsPerPage);
+
+                    SqlDataReader rd = cmd.ExecuteReader();
+                    while (rd.Read())
+                    {
+                        Product product = new Product
+                        {
+                            product_id = Convert.ToInt32(rd["product_id"]),
+                            sku = rd["sku"].ToString(),
+                            name = rd["name"].ToString(),
+                            price = Convert.ToDecimal(rd["price"]),
+                            stock = Convert.ToInt32(rd["stock"]),
+                            image = rd["image"].ToString(),
+                            category_id = Convert.ToInt32(rd["category_id"])
+                        };
+                        products.Add(product);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions appropriately
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
             }
-            con.Close(); // Đóng kết nối sau khi sử dụng xong
 
             return products;
         }
 
-
-
+        public List<Product> GetProductsByCategory(string category)
+        {
+            // Implement your data retrieval logic here
+            // Example:
+            List<Product> products = new List<Product>();
+            // Add logic to fetch products based on category
+            return products;
+        }
 
         public List<Product> SearchProducts(string searchTerm)
         {
-            List<Product> products = new List<Product>();
-
-            string query = "SELECT * FROM Products WHERE productName LIKE @SearchTerm";
-
-            using (SqlCommand cmd = new SqlCommand(query, con))
-            {
-                cmd.Parameters.AddWithValue("@SearchTerm", "%" + searchTerm + "%");
-                con.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    Product product = new Product();
-                    product.product_id = Convert.ToInt32(reader["productId"]);
-                    product.name = Convert.ToString(reader["productName"]);
-                    product.price = Convert.ToDecimal(reader["productPrice"]);
-                    product.stock = Convert.ToInt32(reader["productStock"]);
-                    product.image = Convert.ToString(reader["productImage"]);
-                    products.Add(product);
-                }
-
-                reader.Close();
-            }
-
-            con.Close();
-
-            return products;
+            // Filter products by search term
+            return allProducts
+                .Where(p => p.name.IndexOf(searchTerm, System.StringComparison.OrdinalIgnoreCase) >= 0)
+                .ToList();
         }
-
-
     }
 }

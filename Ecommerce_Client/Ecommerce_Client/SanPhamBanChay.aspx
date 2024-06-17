@@ -143,7 +143,7 @@
     <script>
         $(document).ready(function () {
             let currentPage = 1;
-            let totalPages = 10; // Replace with actual total pages
+            let totalPages = 6; // Thay thế với tổng số trang thực tế
 
             loadProducts(currentPage);
 
@@ -172,7 +172,7 @@
                 currentPage = page;
                 $.ajax({
                     type: "POST",
-                    url: "SanPhamBanChay.aspx/GetBestSellingProducts",
+                    url: "SanPhamBanChay.aspx/GetProductsBestSelling",
                     data: JSON.stringify({ page: page }),
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
@@ -184,7 +184,7 @@
                             productsHtml += '    <div class="product-details">';
                             productsHtml += '        <div class="product-name">' + product.name + '</div>';
                             productsHtml += '        <div class="product-price">' + formatCurrency(product.price) + '</div>';
-                            productsHtml += '        <div class="product-stock">' + (product.stock > 0 ? 'In Stock' : 'Out of Stock') + '</div>';
+                            productsHtml += '        <div class="product-stock">' + (product.stock = 0 ? product.stock : 'Out of Stock') + '</div>';
                             productsHtml += '        <a href="ChiTietSanPham.aspx?id=' + product.id + '" class="btn-outline-dark">Chi tiết</a>';
                             productsHtml += '    </div>';
                             productsHtml += '</div>';
@@ -214,7 +214,7 @@
                 return amount.toFixed(2);
             }
         });
-    </script>
+</script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
